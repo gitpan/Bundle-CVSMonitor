@@ -1,6 +1,6 @@
 package Bundle::CVSMonitor;
 
-$VERSION = 0.6;
+$VERSION = 0.7;
 
 1;
 
@@ -58,11 +58,15 @@ IO::File
 
 Net::Telnet
 
+Number::Compare    - Needed by Sort::Versions
+
 Proc::ProcessTable
 
 Sort::Versions     - Sort deep version numbers ( 1.2.3.4 )
 
 Storable           - Freeze and load cache data
+
+Text::Glob         - Needed by something else?
 
 Time::Duration
 
