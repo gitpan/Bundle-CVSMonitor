@@ -9,7 +9,7 @@ CONTENTS
 
     CGI
 
-    CGI::Carp - For it's fatalsToBrowser
+    CGI::Carp - For its fatalsToBrowser
 
     Chart::Math::Axis - Calculate correct graph axis
 
@@ -20,6 +20,8 @@ CONTENTS
     Class::Default
 
     Class::Inspector - Look at classes
+
+    Class::Handle - Look at classes
 
     Config::Tiny - Config files
 
@@ -32,6 +34,8 @@ CONTENTS
     File::Flat - Flat filesystem
 
     File::Temp
+
+    File::Which
 
     FindBin
 
@@ -70,5 +74,5 @@ CONTENTS
     XML::Generator - Used to generate RSS content
 
 AUTHOR
-    Adam Kennedy <cvsmonitor@ali.as>
+    Adam Kennedy (Maintainer), <http://ali.as/>, cvsmonitor@ali.as
 

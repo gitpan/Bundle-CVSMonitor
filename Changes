@@ -1,5 +1,14 @@
 Revision history for Perl extension Bundle::CVSMonitor
 
+1.07 Tue Oct  4 2004
+   - Added Class::Handle to the Bundle file
+
+1.06 Fri Jun  4 2004
+   - Added File::Which to detect installed programs
+
+1.05 Sat Mar 20 2004
+   - Incrementing Chart::Math::Axis to 0.3 to chase a Math::BigInt bug
+
 1.04 Thu Feb 12 2004
    - Adding Scalar::Util 1.09
 

@@ -1,6 +1,6 @@
 package Bundle::CVSMonitor;
 
-$VERSION = 1.04;
+$VERSION = 1.06;
 
 1;
 
@@ -20,7 +20,7 @@ Array::Window
 
 CGI
 
-CGI::Carp          - For it's fatalsToBrowser
+CGI::Carp          - For its fatalsToBrowser
 
 Chart::Math::Axis  - Calculate correct graph axis
 
@@ -31,6 +31,8 @@ Class::Autouse     - Dynamic module loading
 Class::Default
 
 Class::Inspector   - Look at classes
+
+Class::Handle      - Look at classes
 
 Config::Tiny       - Config files
 
@@ -43,6 +45,8 @@ File::Copy
 File::Flat         - Flat filesystem
 
 File::Temp
+
+File::Which
 
 FindBin
 
@@ -82,6 +86,6 @@ XML::Generator     - Used to generate RSS content
 
 =head1 AUTHOR
 
-Adam Kennedy E<lt>F<cvsmonitor@ali.as>E<gt>
+Adam Kennedy (Maintainer), L<http://ali.as/>, cvsmonitor@ali.as
 
 =cut
