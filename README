@@ -51,6 +51,8 @@ CONTENTS
 
     Proc::ProcessTable
 
+    Scalar::Util
+
     Sort::Versions - Sort deep version numbers ( 1.2.3.4 )
 
     Storable - Freeze and load cache data

@@ -1,5 +1,8 @@
 Revision history for Perl extension Bundle::CVSMonitor
 
+1.04 Thu Feb 12 2004
+   - Adding Scalar::Util 1.09
+
 1.03 Thu Feb 12 2004
    - Added XML::Generator and Date::Format for the RSS upgrade
 

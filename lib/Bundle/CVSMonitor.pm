@@ -1,6 +1,6 @@
 package Bundle::CVSMonitor;
 
-$VERSION = 1.03;
+$VERSION = 1.04;
 
 1;
 
@@ -61,6 +61,8 @@ Net::Telnet
 Number::Compare    - Needed by Sort::Versions
 
 Proc::ProcessTable
+
+Scalar::Util
 
 Sort::Versions     - Sort deep version numbers ( 1.2.3.4 )
 

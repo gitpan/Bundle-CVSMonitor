@@ -33,6 +33,7 @@ WriteMakefile(
 		'Net::Telnet'         => 0,
 		'Number::Compare'     => 0,
 		'Proc::ProcessTable'  => 0,
+		'Scalar::Util'        => 1.09,
 		'Sort::Versions'      => 1.4,
 		'Storable'            => 0,
 		'Text::Glob'          => 0,

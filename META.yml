@@ -1,7 +1,7 @@
 # http://module-build.sourceforge.net/META-spec.html
 #XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
 name:         Bundle-CVSMonitor
-version:      1.03
+version:      1.04
 version_from: lib/Bundle/CVSMonitor.pm
 installdirs:  site
 requires:
@@ -33,6 +33,7 @@ requires:
     Net::Telnet:                   0
     Number::Compare:               0
     Proc::ProcessTable:            0
+    Scalar::Util:                  1.09
     Sort::Versions:                1.4
     Storable:                      0
     Text::Glob:                    0
