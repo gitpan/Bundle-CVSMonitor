@@ -16,6 +16,7 @@ WriteMakefile(
 		'Getopt::Long'        => 0,
 		'HTTP::BrowserDetect' => 0,
 		'IO::File'            => 0,
+		'Proc::ProcessTable'  => 0,
 		'Sort::Versions'      => 0,
 		'Storable'            => 0,
 		'Time::Duration'      => 0,

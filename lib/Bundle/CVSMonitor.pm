@@ -1,6 +1,6 @@
 package Bundle::CVSMonitor;
 
-$VERSION = 0.1;
+$VERSION = 0.2;
 
 1;
 
@@ -43,6 +43,8 @@ Getopt::Long
 HTTP::BrowserDetect
 
 IO::File
+
+Proc::ProcessTable
 
 Sort::Versions     - Sort deep version numbers ( 1.2.3.4 )
 
