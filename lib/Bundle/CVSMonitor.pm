@@ -1,6 +1,6 @@
 package Bundle::CVSMonitor;
 
-$VERSION = 1.02;
+$VERSION = 1.03;
 
 1;
 
@@ -33,6 +33,8 @@ Class::Default
 Class::Inspector   - Look at classes
 
 Config::Tiny       - Config files
+
+Date::Format       - Used to generate RSS content
 
 File::Spec         - Path calculation
 
@@ -73,6 +75,8 @@ Time::ParseDate
 URI::Escape
 
 Validate::Net
+
+XML::Generator     - Used to generate RSS content
 
 =head1 AUTHOR
 

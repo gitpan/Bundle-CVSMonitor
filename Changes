@@ -1,5 +1,8 @@
 Revision history for Perl extension Bundle::CVSMonitor
 
+1.03 Thu Feb 12 2004
+   - Added XML::Generator and Date::Format for the RSS upgrade
+
 1.01 Sun Sep 21 2003
    - For some reason, a comment in the content POD section is being parsed
      as modules that need to be installed. WRONG!

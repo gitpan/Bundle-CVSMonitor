@@ -15,6 +15,7 @@ WriteMakefile(
 		'Clone'               => 0.13,
 		'Config::Tiny'        => 1.5,
 #		'Cwd'                 => 0, # Removed to prevent circular dependency
+		'Date::Format'        => 0,
 		'File::Spec'          => 0.82,  # Some methods we need
 		'File::Copy'          => 0,
 		'File::NCopy'         => 0.32,
@@ -39,6 +40,7 @@ WriteMakefile(
 		'Time::ParseDate'     => 100.010301,
 		'URI::Escape'         => 0,
 		'Validate::Net'       => 0.4,
+		'XML::Generator'      => 0,
 	},
 	($] >= 5.005) ? (
 		'AUTHOR'     => 'Adam Kennedy (cpan@ali.as)',

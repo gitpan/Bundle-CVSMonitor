@@ -1,7 +1,7 @@
 # http://module-build.sourceforge.net/META-spec.html
 #XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
 name:         Bundle-CVSMonitor
-version:      1.02
+version:      1.03
 version_from: lib/Bundle/CVSMonitor.pm
 installdirs:  site
 requires:
@@ -15,6 +15,7 @@ requires:
     Class::Inspector:              1.03
     Clone:                         0.13
     Config::Tiny:                  1.5
+    Date::Format:                  0
     File::Copy:                    0
     File::Find::Rule:              0
     File::Flat:                    0.8
@@ -39,6 +40,7 @@ requires:
     Time::ParseDate:               100.010301
     URI::Escape:                   0
     Validate::Net:                 0.4
+    XML::Generator:                0
 
 distribution_type: module
 generated_by: ExtUtils::MakeMaker version 6.16
