@@ -1,6 +1,6 @@
 package Bundle::CVSMonitor;
 
-$VERSION = 1.01;
+$VERSION = 1.02;
 
 1;
 
@@ -25,8 +25,6 @@ CGI::Carp          - For it's fatalsToBrowser
 Chart::Math::Axis  - Calculate correct graph axis
 
 Clone
-
-Cwd
 
 Class::Autouse     - Dynamic module loading
 
@@ -75,15 +73,6 @@ Time::ParseDate
 URI::Escape
 
 Validate::Net
-
-=head1 DESCRIPTION
-
-This bundle provides a correct install of all modules needed to
-get the application CVS Monitor working.
-
-Yes, we use a lot of shit. Some of these won't get used directly, but are used
-for the AppSpac run-time library, which I've bundled into this install. It has
-a few more esoteric needs
 
 =head1 AUTHOR
 

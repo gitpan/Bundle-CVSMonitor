@@ -6,7 +6,7 @@ Revision history for Perl extension Bundle::CVSMonitor
    - Upgraded to Class::Autouse 1.0 because of a bug in 0.9
 
 1.0  Sat Aug 20 2003
-	- Updating to require Class::Autouse 0.8
+   - Updating to require Class::Autouse 0.8
 
 0.9  Sun Aug 24 2003 16:22:31
    - Math::BigFloat changed, which meant a new version of Chart::Math::Axis.
