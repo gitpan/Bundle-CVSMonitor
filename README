@@ -7,6 +7,8 @@ SYNOPSIS
 CONTENTS
     CGI
 
+    CGI::Carp - For it's fatalsToBrowser
+
     Chart::Math::Axis - Calculate correct graph axis
 
     Cwd
@@ -15,9 +17,15 @@ CONTENTS
 
     Class::Default
 
+    Class::Inspector - Look at classes
+
+    Config::Tiny - Config files
+
     File::Spec - Path calculation
 
     File::Copy
+
+    File::Flat - Flat filesystem
 
     File::Temp
 

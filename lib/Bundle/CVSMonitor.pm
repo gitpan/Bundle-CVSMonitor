@@ -1,6 +1,6 @@
 package Bundle::CVSMonitor;
 
-$VERSION = 0.2;
+$VERSION = 0.3;
 
 1;
 
@@ -18,6 +18,8 @@ C<perl -MCPAN -e 'install Bundle::CVSMonitor'>
 
 CGI
 
+CGI::Carp          - For it's fatalsToBrowser
+
 Chart::Math::Axis  - Calculate correct graph axis
 
 Cwd
@@ -26,9 +28,15 @@ Class::Autouse     - Dynamic module loading
 
 Class::Default
 
+Class::Inspector   - Look at classes
+
+Config::Tiny       - Config files
+
 File::Spec         - Path calculation
 
 File::Copy
+
+File::Flat         - Flat filesystem
 
 File::Temp
 
