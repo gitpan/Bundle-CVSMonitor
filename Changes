@@ -1,5 +1,11 @@
 Revision history for Perl extension Bundle::CVSMonitor
 
+0.9  Sun Aug 24 2003 16:22:31
+   - Math::BigFloat changed, which meant a new version of Chart::Math::Axis.
+     Updating to require the new version of it.
+
+0.8 Missing
+
 0.7  Thu Aug 14 15:10:14 2003
    - Updated to cover CVSMonitor 0.6.3
    - Manually specified some additional modules, rather than
