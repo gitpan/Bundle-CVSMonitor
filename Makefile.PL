@@ -20,6 +20,7 @@ WriteMakefile(
 		'Getopt::Long'        => 0,
 		'HTTP::BrowserDetect' => 0.97,
 		'IO::File'            => 0,
+		'Net::Telnet'         => 0,
 		'Proc::ProcessTable'  => 0,
 		'Sort::Versions'      => 1.4,
 		'Storable'            => 0,

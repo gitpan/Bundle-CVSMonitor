@@ -1,6 +1,6 @@
 package Bundle::CVSMonitor;
 
-$VERSION = 0.4;
+$VERSION = 0.5;
 
 1;
 
@@ -51,6 +51,8 @@ Getopt::Long
 HTTP::BrowserDetect
 
 IO::File
+
+Net::Telnet
 
 Proc::ProcessTable
 

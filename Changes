@@ -1,5 +1,8 @@
 Revision history for Perl extension Bundle::CVSMonitor
 
+0.5  Wed Dec 04 20:14:32 2002
+   - Added Net::Telnet
+
 0.4  Thu Nov 28 15:22:34 2002
     - Updating File::Flat -> 0.5
 
