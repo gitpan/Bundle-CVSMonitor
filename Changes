@@ -1,5 +1,11 @@
 Revision history for Perl extension Bundle::CVSMonitor
 
+0.6  Thu Dec 05 20:01:32 2002
+   - Updated File::Flat requirement to 0.6
+   - Added URI::Escape
+   - Added Array::Window
+   - Added Clone
+
 0.5  Wed Dec 04 20:14:32 2002
    - Added Net::Telnet
 

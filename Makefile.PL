@@ -4,17 +4,19 @@ WriteMakefile(
 	'NAME'         => 'Bundle::CVSMonitor',
 	'VERSION_FROM' => 'lib/Bundle/CVSMonitor.pm',
 	'PREREQ_PM'    => {
+		'Array::Window'       => 0,
 		'CGI'                 => 0,
 		'CGI::Carp'           => 0,
 		'Class::Autouse'      => 0.7,   # Avoids warnings
 		'Class::Default'      => 0.2,
 		'Class::Inspector'    => 0.2,
+		'Clone'               => 0.13,
 		'Cwd'                 => 0,
 		'Chart::Math::Axis'   => 0.1,
 		'Config::Tiny'        => 0.1,
 		'File::Spec'          => 0.82,  # Some methods we need
 		'File::Copy'          => 0,
-		'File::Flat'          => 0.5,
+		'File::Flat'          => 0.6,
 		'File::Temp'          => 0,
 		'FindBin'             => 0,
 		'Getopt::Long'        => 0,
@@ -26,6 +28,7 @@ WriteMakefile(
 		'Storable'            => 0,
 		'Time::Duration'      => 0,
 		'Time::ParseDate'     => 100.010301,
+		'URI::Escape'         => 0,
 		'Validate::Net'       => 0.3,
 	},
 	($] >= 5.005) ? (

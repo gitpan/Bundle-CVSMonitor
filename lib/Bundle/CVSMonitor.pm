@@ -1,6 +1,6 @@
 package Bundle::CVSMonitor;
 
-$VERSION = 0.5;
+$VERSION = 0.6;
 
 1;
 
@@ -16,11 +16,15 @@ C<perl -MCPAN -e 'install Bundle::CVSMonitor'>
 
 =head1 CONTENTS
 
+Array::Window
+
 CGI
 
 CGI::Carp          - For it's fatalsToBrowser
 
 Chart::Math::Axis  - Calculate correct graph axis
+
+Clone
 
 Cwd
 
@@ -63,6 +67,8 @@ Storable           - Freeze and load cache data
 Time::Duration
 
 Time::ParseDate
+
+URI::Escape
 
 Validate::Net
 

@@ -5,11 +5,15 @@ SYNOPSIS
     "perl -MCPAN -e 'install Bundle::CVSMonitor'"
 
 CONTENTS
+    Array::Window
+
     CGI
 
     CGI::Carp - For it's fatalsToBrowser
 
     Chart::Math::Axis - Calculate correct graph axis
+
+    Clone
 
     Cwd
 
@@ -52,6 +56,8 @@ CONTENTS
     Time::Duration
 
     Time::ParseDate
+
+    URI::Escape
 
     Validate::Net
 
