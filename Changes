@@ -1,5 +1,8 @@
 Revision history for Perl extension Bundle::CVSMonitor
 
+0.4  Thu Nov 28 15:22:34 2002
+    - Updating File::Flat -> 0.5
+
 0.3  Sat Nov 23 02:57:54 2002
 	- Added Config::Tiny
 	- Added CGI::Carp
