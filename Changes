@@ -1,5 +1,10 @@
 Revision history for Perl extension Bundle::CVSMonitor
 
+1.01 Sun Sep 21 2003
+   - For some reason, a comment in the content POD section is being parsed
+     as modules that need to be installed. WRONG!
+   - Upgraded to Class::Autouse 1.0 because of a bug in 0.9
+
 1.0  Sat Aug 20 2003
 	- Updating to require Class::Autouse 0.8
 

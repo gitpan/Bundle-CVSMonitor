@@ -1,6 +1,6 @@
 package Bundle::CVSMonitor;
 
-$VERSION = 1.0;
+$VERSION = 1.01;
 
 1;
 
@@ -76,14 +76,14 @@ URI::Escape
 
 Validate::Net
 
-Yes, we use a lot of shit. Some of these won't get used directly, but are used
-for the AppSpac run-time library, which I've bundled into this install. It has
-a few more esoteric needs
-
 =head1 DESCRIPTION
 
 This bundle provides a correct install of all modules needed to
 get the application CVS Monitor working.
+
+Yes, we use a lot of shit. Some of these won't get used directly, but are used
+for the AppSpac run-time library, which I've bundled into this install. It has
+a few more esoteric needs
 
 =head1 AUTHOR
 

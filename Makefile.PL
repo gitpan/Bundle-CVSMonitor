@@ -8,7 +8,7 @@ WriteMakefile(
 		'CGI'                 => 0,
 		'CGI::Carp'           => 0,
 		'Chart::Math::Axis'   => 0.2,
-		'Class::Autouse'      => 0.8,   # Avoids warnings
+		'Class::Autouse'      => 1.0,
 		'Class::Default'      => 0.2,
 		'Class::Inspector'    => 0.2,
 		'Class::Handle'       => 0,
